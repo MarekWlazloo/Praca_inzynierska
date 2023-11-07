@@ -1,0 +1,12 @@
+	dla 20 epok wyniki (accuracy) dla relu
+2 lstm, 25neur, rmsprop, seq 50, batch 100, bez dropout, --> 0.1889 
+2 lstm, 25neur, Adam, seq 50, batch 100, bez dropout, --> 0.1827
+2 lstm, 5neur, rmsprop, seq 50, batch 100, bez dropout, --> 0.1079
+3 lstm, 25neur, rmsprop, seq 50, batch 100, bez dropout, --> cos kolo 0.212
+2 lstm, 100neur, rmsprop, seq 50, batch 100, bez dropout, --> max 0.1792 (0.0144)
+2 lstm, 25neur, rmsprop, seq 100, batch 100, 2 x dropout, --> 0,179
+2 lstm, 50neur, rmsprop, seq 100, batch 100, 2 x dropout, --> nagły spadek w ecpoce 14 z 0.18 na 0.01 --> koniec 0.1941
+2 lstm, 50neur, rmsprop, seq 50, batch 100, 2 x dropout, --> 0.1928
+2 lstm, 50neur, rmsprop, seq 25, batch 100, 2 x dropout, -->   0.1930
+2 lstm, 50neur, rmsprop, seq 10, batch 100, 2 x dropout, -->   0.1823
+3 lstm, 50neur, rmsprop, seq 25, batch 100, 2 x dropout, -->   0.2
