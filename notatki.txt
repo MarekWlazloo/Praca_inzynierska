@@ -1,4 +1,4 @@
-	dla 20 epok wyniki (accuracy) dla relu
+	Wyniki (wartosc val_accuracy) dla 20 epok:
 2 lstm, 25neur, rmsprop, seq 50, batch 100, bez dropout, --> 0.1889 
 2 lstm, 25neur, Adam, seq 50, batch 100, bez dropout, --> 0.1827
 2 lstm, 5neur, rmsprop, seq 50, batch 100, bez dropout, --> 0.1079
@@ -10,3 +10,4 @@
 2 lstm, 50neur, rmsprop, seq 25, batch 100, 2 x dropout, -->   0.1930
 2 lstm, 50neur, rmsprop, seq 10, batch 100, 2 x dropout, -->   0.1823
 3 lstm, 50neur, rmsprop, seq 25, batch 100, 2 x dropout, -->   0.2
+2 lstm, 100neur, rmsprop, seq 25, batch 100, 2 x dropout, -->  0.2029
