@@ -15,3 +15,5 @@
 2lstm, 20 neur, rmsprop, seq 10, batch 100, 2 x dropout, --> 
 2lstm, 50 neur, rmsprop, seq 10, batch 100, 2 x dropout, 0.2178
 2lstm, 100 neur, rmsprop, seq 10, batch 100, 2 x dropout 0.24
+2lstm, 200 neur, rmsprop, seq 10, batch 100, 2 x dropout 0.28
+2lstm, 20 neur, rmsprop, seq 25, batch 100, 2 x dropout 
